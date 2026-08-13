@@ -16,5 +16,7 @@ bun install @upstash/realtime @upstash/redis zod
 bun add @auth/prisma-adapter next-auth@beta
 bunx auth secret
 
-
 git add .
+git commit -m "add .env"
+git branch -M main  
+git push -u origin main
